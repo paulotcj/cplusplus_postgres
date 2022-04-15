@@ -1,0 +1,91 @@
+-----------------------------------
+CreateTable - start
+Table created successfully
+-----------------------------------
+InsertIntoTable - start
+Records created successfully
+-----------------------------------
+SelectFromTable - start
+    ID = 1
+    Name = Paul
+    Age = 32
+    Address = California                                        
+    Salary = 20000
+    -----
+    ID = 2
+    Name = Allen
+    Age = 25
+    Address = Texas                                             
+    Salary = 15000
+    -----
+    ID = 3
+    Name = Teddy
+    Age = 23
+    Address = Norway                                            
+    Salary = 20000
+    -----
+    ID = 4
+    Name = Mark
+    Age = 25
+    Address = Rich-Mond                                         
+    Salary = 65000
+    -----
+Operation done successfully
+-----------------------------------
+UpdateTable - start
+    UPDATE COMPANY set SALARY = 25000.00 where ID=1
+
+Records updated successfully
+-----------------------------------
+SelectFromTable - start
+    ID = 1
+    Name = Paul
+    Age = 32
+    Address = California                                        
+    Salary = 25000
+    -----
+    ID = 2
+    Name = Allen
+    Age = 25
+    Address = Texas                                             
+    Salary = 15000
+    -----
+    ID = 3
+    Name = Teddy
+    Age = 23
+    Address = Norway                                            
+    Salary = 20000
+    -----
+    ID = 4
+    Name = Mark
+    Age = 25
+    Address = Rich-Mond                                         
+    Salary = 65000
+    -----
+Operation done successfully
+-----------------------------------
+DeleteFromTable - start
+    DELETE from COMPANY where ID = 2
+
+Records created successfully
+-----------------------------------
+SelectFromTable - start
+    ID = 1
+    Name = Paul
+    Age = 32
+    Address = California                                        
+    Salary = 25000
+    -----
+    ID = 3
+    Name = Teddy
+    Age = 23
+    Address = Norway                                            
+    Salary = 20000
+    -----
+    ID = 4
+    Name = Mark
+    Age = 25
+    Address = Rich-Mond                                         
+    Salary = 65000
+    -----
+Operation done successfully
